@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p:nth-of-type(6) {
+  background: #33FFE6;
+}
+
+p:nth-of-type(8) {
+  background: #33DAFF;
+}
+
+p:nth-of-type(9) {
+  background: #85C1E9 ;
+}
