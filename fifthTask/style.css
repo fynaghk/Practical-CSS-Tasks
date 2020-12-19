@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.content:hover:before{
+  content: attr(data-name);
+}
