@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.name:hover + .hide {
+  display: inline;
+  color: rgb(43, 109, 43);
+}
