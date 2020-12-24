@@ -5,8 +5,8 @@
 
 .cont{
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 40%;
+  top: 40%;
   transform: translate(-50%, -50%);
   width: 350px;
   height: 350px;
@@ -18,7 +18,6 @@ img{
   height: 200px;
   border: 10px solid #6e5294;
   box-shadow: 10px 10px 20px black;
-  transform-style: preserve-3d;
   transform: perspective(200px) rotateX(30deg);
 }
 
@@ -26,7 +25,6 @@ img:hover{
   transition: .2s cubic-bezier(0.075, 0.082, 0.0165, 0.03);
   height: 500px;
   width: 510px;
-  transform: translate(-50%, -50%);
   transform: none;
-
+  box-shadow: none;
 }
